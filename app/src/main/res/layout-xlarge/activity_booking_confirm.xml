@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.rishad.democab.BookingConfirmActivity">
+
+
+    <TextView
+        android:id="@+id/Vehiclename"
+        android:layout_width="525dp"
+        android:layout_height="94dp"
+        android:layout_marginTop="180dp"
+        android:text="Toyota Innova A/C "
+        android:textSize="50sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/hour1"
+        android:layout_width="78dp"
+        android:layout_height="84dp"
+        android:layout_marginTop="311dp"
+        android:text="5"
+        android:textSize="60sp"
+        app:layout_constraintHorizontal_bias="0.219"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteY="311dp"
+        tools:layout_editor_absoluteX="154dp" />
+
+    <TextView
+        android:id="@+id/hour2"
+        android:layout_width="84dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="321dp"
+        android:text="Hr"
+        android:textSize="50sp"
+        app:layout_constraintHorizontal_bias="0.298"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:id="@+id/imageView3"
+        android:layout_width="63dp"
+        android:layout_height="86dp"
+        app:srcCompat="@drawable/rupeesymbol"
+        android:layout_marginTop="445dp"
+        app:layout_constraintHorizontal_bias="0.188" />
+
+    <TextView
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:id="@+id/price"
+        android:layout_width="189dp"
+        android:layout_height="87dp"
+        android:text="1200"
+        android:textSize="50sp"
+        android:layout_marginTop="445dp"
+        app:layout_constraintHorizontal_bias="0.35" />
+
+    <TextView
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:id="@+id/pickUp"
+        android:layout_width="161dp"
+        android:layout_height="80dp"
+        android:text="Pick up:"
+        android:textSize="50sp"
+        android:layout_marginTop="721dp"
+        app:layout_constraintHorizontal_bias="0.106" />
+
+    <TextView
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:id="@+id/pickUp2"
+        android:layout_width="333dp"
+        android:layout_height="80dp"
+        android:text="Cochin"
+        android:textSize="50sp"
+        android:layout_marginTop="721dp"
+        app:layout_constraintHorizontal_bias="0.74" />
+
+    <Button
+        android:id="@+id/continueBtn"
+        android:layout_width="665dp"
+        android:layout_height="98dp"
+        android:layout_marginTop="983dp"
+        android:background="@drawable/continue1"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteY="983dp"
+        tools:layout_editor_absoluteX="78dp" />
+
+
+</android.support.constraint.ConstraintLayout>

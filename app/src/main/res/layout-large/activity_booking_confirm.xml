@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.rishad.democab.BookingConfirmActivity">
+
+
+    <TextView
+        android:id="@+id/Vehiclename"
+        android:layout_width="339dp"
+        android:layout_height="68dp"
+        android:layout_marginTop="158dp"
+        android:text="Toyota Innova A/C "
+        android:textSize="40sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="79dp"
+        tools:layout_editor_absoluteY="131dp" />
+
+    <TextView
+        android:id="@+id/hour1"
+        android:layout_width="52dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="240dp"
+        android:text="3"
+        android:textSize="40sp"
+        app:layout_constraintHorizontal_bias="0.244"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/hour2"
+        android:layout_width="57dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="250dp"
+        android:text="Hr"
+        android:textSize="30sp"
+        app:layout_constraintHorizontal_bias="0.342"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:id="@+id/imageView3"
+        android:layout_width="39dp"
+        android:layout_height="49dp"
+        app:srcCompat="@drawable/rupeesymbol"
+        android:layout_marginTop="344dp"
+        app:layout_constraintHorizontal_bias="0.247"
+        tools:layout_editor_absoluteX="150dp" />
+
+    <TextView
+        android:id="@+id/price"
+        android:layout_width="117dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="344dp"
+        android:text="1200"
+        android:textSize="49sp"
+        app:layout_constraintHorizontal_bias="0.385"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/pickUp"
+        android:layout_width="141dp"
+        android:layout_height="36dp"
+        android:layout_marginTop="608dp"
+        android:text="Pick up:"
+        android:textSize="35sp"
+        app:layout_constraintHorizontal_bias="0.113"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/pickUp2"
+        android:layout_width="190dp"
+        android:layout_height="37dp"
+        android:layout_marginTop="608dp"
+        android:text="addadva"
+        android:textSize="35sp"
+        app:layout_constraintHorizontal_bias="0.643"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/continueBtn"
+        android:layout_width="496dp"
+        android:layout_height="69dp"
+        android:layout_marginTop="792dp"
+        android:background="@drawable/continue1"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+     />
+
+
+</android.support.constraint.ConstraintLayout>

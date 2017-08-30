@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "50748522208",
+    "project_id": "alpy-cabs"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:50748522208:android:652c2b0c3c9ee264",
+        "android_client_info": {
+          "package_name": "com.example.rishad.democab"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "50748522208-d1an8u1je97qlfjf5laednb93ph9lkda.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "50748522208-ea958vsapqlms6v2knb1cdo53aei2s26.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.rishad.democab",
+            "certificate_hash": "e2f107e171299d2a3ad0bba06b504be15ca660aa"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC5OY-_8tQevvAngGP5Tlg0HjOESlRxYsY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

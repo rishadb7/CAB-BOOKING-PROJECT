@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.rishad.democab.BookingConfirmActivity">
+
+
+    <TextView
+        android:id="@+id/Vehiclename"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_width="236dp"
+        android:layout_height="41dp"
+        android:textSize="25sp"
+        android:text="Toyota Innova A/C "
+        android:layout_marginTop="76dp" />
+
+    <TextView
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:id="@+id/hour1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="25sp"
+        android:layout_marginTop="129dp"
+        app:layout_constraintHorizontal_bias="0.316" />
+
+    <TextView
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:id="@+id/hour2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hr"
+        android:textSize="14sp"
+        android:layout_marginTop="142dp"
+        app:layout_constraintHorizontal_bias="0.39" />
+
+    <ImageView
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:id="@+id/imageView3"
+        android:layout_width="30dp"
+        android:layout_height="33dp"
+        app:srcCompat="@drawable/rupeesymbol"
+        android:layout_marginTop="185dp"
+        app:layout_constraintHorizontal_bias="0.373" />
+
+    <TextView
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:id="@+id/price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1200"
+        android:textSize="28sp"
+        android:layout_marginTop="185dp"
+        app:layout_constraintHorizontal_bias="0.565" />
+
+    <TextView
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:id="@+id/pickUp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pick up:"
+        android:textSize="20sp"
+        android:layout_marginTop="253dp"
+        app:layout_constraintHorizontal_bias="0.213" />
+
+    <TextView
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:id="@+id/pickUp2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="15sp"
+        android:layout_marginTop="259dp"
+        app:layout_constraintHorizontal_bias="0.441" />
+
+    <Button
+        android:id="@+id/continueBtn"
+        android:layout_width="298dp"
+        android:layout_height="68dp"
+        android:layout_marginTop="418dp"
+        android:background="@drawable/continue1"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</android.support.constraint.ConstraintLayout>

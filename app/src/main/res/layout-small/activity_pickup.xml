@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.rishad.democab.PickupActivity">
+
+
+    <EditText
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:id="@+id/pickUpPoint"
+        android:layout_width="292dp"
+        android:layout_height="49dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Pick up point" />
+
+    <EditText
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:id="@+id/date"
+        android:layout_width="292dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="167dp"
+        android:ems="10"
+        android:inputType="date"
+        android:hint="dd/mm/yyyy"
+        android:layout_centerHorizontal="true">
+
+
+    </EditText>
+
+    <EditText
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:id="@+id/time"
+        android:layout_width="292dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="252dp"
+        android:ems="10"
+        android:inputType="time"
+        android:hint="00:00"
+
+        />
+
+    <EditText
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:id="@+id/mobileNo"
+        android:layout_width="292dp"
+        android:layout_height="48dp"
+        android:ems="10"
+        android:inputType="phone"
+        android:hint="Mobile No"
+        android:layout_marginTop="319dp" />
+
+    <Button
+        android:id="@+id/nextButton"
+        android:layout_width="300dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="475dp"
+        android:background="@drawable/next"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+      />
+
+
+
+</android.support.constraint.ConstraintLayout>
